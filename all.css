@@ -1,0 +1,81 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Header CSS*/
+.title {
+    font-size: 30px;
+    height: 50px;
+    background-color: #262a3e;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*Container CSS*/
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 8%;
+}
+
+.item {
+    margin-bottom: 20px; 
+}
+
+.question {
+    background-color: #63ebe4;
+    border: 0.5px #63ebe4 ;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.answer {
+    background-color: #ececec ;
+    border: 0.5px #ececec ;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+
+
+/* 回到頂部 */
+.back-top {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: greenyellow;
+    transition: all 0.2s linear
+}
+
+.back-top:hover {
+    opacity: 0.8;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+}
+
+/*Footer CSS*/
+footer {
+    border-top: 1px #ececec solid;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    bottom: 0;
+}
